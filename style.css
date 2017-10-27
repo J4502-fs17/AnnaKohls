@@ -53,9 +53,25 @@ li a:hover {
 }
 #nav {
   padding: 0;
+  display: flex;
+  flex-flow: column;
 }
 
 #container {
   width: 90%;
   margin:auto;
+}
+
+@media screen and (min-width: 600px){
+
+  #nav {
+    flex-flow: row;
+    justify-content: space-between;
+    clear: both;
+  }
+
+img {
+  float: left;
+}
+
 }
