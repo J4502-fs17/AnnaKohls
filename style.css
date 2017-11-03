@@ -1,3 +1,8 @@
+nav ul {
+  display: flex;
+  flex-flow: column; 
+}
+
 h1 {
   text-align: center;
   font-family: Georgia, "Merriweather Sans", serif;
