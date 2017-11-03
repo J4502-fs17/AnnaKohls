@@ -17,15 +17,6 @@ h1 {
   color: white;
 }
 
-.authorbox {
-  font-size: 80%
-}
-
-.authorbox img {
-  display: grid;
-}
-
-
 p {
   text-align: center;
   font-family: Georgia, "Times New Roman", sans-serif;
@@ -80,6 +71,26 @@ li a:hover {
 #container {
   width: 90%;
   margin:auto;
+}
+
+@media screen and (min-width: 600px) {
+
+    #container {
+        width: 80%;
+    }
+
+    .authorbox img {
+      display: block;
+      width: 100%;
+      margin-top: 0.5em;
+    }
+
+    .authorbox {
+      width: 25%;
+      max-width: 200px;
+      float: left;
+      margin-right: 20px;
+    }
 }
 
 @media screen and (min-width: 600px){
