@@ -16,6 +16,16 @@ h1 {
 h1 {
   color: white;
 }
+
+.authorbox {
+  font-size: 80%
+}
+
+.authorbox img {
+  display: grid;
+}
+
+
 p {
   text-align: center;
   font-family: Georgia, "Times New Roman", sans-serif;
