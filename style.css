@@ -5,7 +5,7 @@
 
 nav ul {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: space-between;
 }
 
@@ -85,7 +85,20 @@ li a:hover {
     #container {
         width: 80%;
     }
+    .image1{
+      display:block;
+    }
 
+    .worksamples{
+      display:block;
+      margin:10px;
+    }
+
+    .image2{
+      display:block;
+      margin:10px;
+    }
+    /*
     .worksamples img {
       display: block;
       width: 100%;
@@ -98,19 +111,13 @@ li a:hover {
       float: left;
       margin-right: 20px;
     }
+    */
+    nav ul{
+      flex-flow:row;
+    }
 }
 
-@media screen and (min-width: 600px){
 
-  #nav {
-    flex-flow: row;
-    justify-content: space-between;
-    clear: both;
-  }
-  img {
-    float: left;
-  }
-}
   @media screen and (min-width:1000px) {
   .main {
     display: grid;
@@ -134,6 +141,7 @@ li a:hover {
 }
 .image1 {
   grid-area: d;
+  width: 100%;
 }
 .image2 {
   grid-area: e;
