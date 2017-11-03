@@ -112,7 +112,7 @@ li a:hover {
   }
 }
   @media screen and (min-width:1000px) {
-  article {
+  .main {
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
     grid-gap: 20px;
@@ -121,4 +121,15 @@ li a:hover {
         "c c e"
         ". d d";
       }
+.title{
+  grid-area:a;
+}
+
+.WorkSamples{
+  grid-area:b;
+}
+
+.section1 {
+  grid-area:c;
+}
     }
