@@ -1,6 +1,7 @@
 nav ul {
   display: flex;
-  flex-flow: column; 
+  flex-flow: row;
+  justify-content: space-between;
 }
 
 h1 {
