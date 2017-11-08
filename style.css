@@ -5,15 +5,45 @@
 
 nav ul {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   justify-content: space-between;
+}
+
+nav a {
+  color: #black;
+  display: flex;
+  text-decoration: none;
+  padding: 30px 40px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  background-color: #BCBFFF;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+h1 {
+  order: 2;
+  font-size: 2em;
+}
+
+nav ul {
+  display: none;
 }
 
 h1 {
   text-align: center;
   font-family: Georgia, "Merriweather Sans", serif;
   font-size: 200%;
-}
+ }
 h1 {
   color: white;
 }
@@ -51,7 +81,7 @@ ul {
   margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: #6D6E94;
+  background-color: #E0EB7B;
 }
 li a:link {
   display: block;
@@ -98,20 +128,7 @@ li a:hover {
       display:block;
       margin:10px;
     }
-    /*
-    .worksamples img {
-      display: block;
-      width: 100%;
-      margin-top: 0.5cm;
-    }
 
-    .worksamples {
-      width: 25%;
-      max-width: 200px;
-      float: left;
-      margin-right: 20px;
-    }
-    */
     nav ul{
       flex-flow:row;
     }
@@ -146,4 +163,28 @@ li a:hover {
 .image2 {
   grid-area: e;
 }
+    }
+
+    @media screen and (min-width: 700px){
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            border-top: none;
+        }
+
+        .menu-trigger {
+            display: none;
+        }
+
+        header h1 {
+            order: 1;
+        }
+
+        nav {
+            order: 2;
+        }
+
     }
