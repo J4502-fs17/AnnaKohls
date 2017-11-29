@@ -52,7 +52,7 @@ h2 {
   text-align: center;
   font-family: Georgia, "Merriweather Sans", serif;
   font-size: 150%;
-  color: white;
+  color: black;
 }
 p {
   text-align: center;
@@ -72,20 +72,19 @@ li {
   text-decoration: none;
 }
 
-body {
-  background-color: #BCBFFF;
-}
-
 ul {
   list-style-type: none;
   margin: auto;
-  padding: 0;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
   overflow: hidden;
-  background-color: #E0EB7B;
+  background-color: #3B3F66;
 }
 li a:link {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
 }
